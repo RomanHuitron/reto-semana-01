@@ -7,7 +7,6 @@ Para ejecutar el programa en su ThinkPad L14 y guardar los resultados:
 
 Guardar la salida en un archivo (Requerido para evaluación):
 
-´´´Bash
 # En Git Bash / Linux
 python main.py < entrada.txt > salida.txt
 
