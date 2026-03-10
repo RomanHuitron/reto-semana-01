@@ -1,7 +1,7 @@
 # Reto Semana 1: Calculadora de Sumas
 
 ## Descripcion
-Este proyecto consiste en un programa desarrollado en Python diseñado para procesar flujos de datos desde la entrada estandar. El programa realiza la limpieza de caracteres no numericos, trunca los valores decimales a enteros y calcula la suma total por cada linea procesada.
+Este programa lee datos desde la entrada estandar. El programa realiza la limpieza de caracteres no numericos, trunca los valores decimales a enteros y calcula la suma total por cada linea procesada.
 
 ## Instrucciones de uso
 Para ejecutar el programa y procesar un archivo de entrada, utilice los siguientes comandos en su terminal:
