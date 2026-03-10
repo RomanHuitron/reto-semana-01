@@ -1,32 +1,32 @@
-Reto Semana 1: Calculadora de Sumas
-Descripción
-Este programa implementa el patrón fundamental de ciencia de datos (ETL) para procesar una pipeline de ventas. El programa lee líneas de la entrada estándar, limpia caracteres basura, trunca decimales a enteros y muestra la suma total por línea.
+# Reto Semana 1: Calculadora de Sumas
 
-Instrucciones de uso
-Para ejecutar el programa en su ThinkPad L14 y guardar los resultados:
+## Descripcion
+Este proyecto consiste en un programa desarrollado en Python diseñado para procesar flujos de datos desde la entrada estandar. El programa realiza la limpieza de caracteres no numericos, trunca los valores decimales a enteros y calcula la suma total por cada linea procesada.
 
-Guardar la salida en un archivo (Requerido para evaluación):
+## Instrucciones de uso
+Para ejecutar el programa y procesar un archivo de entrada, utilice los siguientes comandos en su terminal:
 
-# En Git Bash / Linux
+### Ejecucion basica
+python main.py < entrada.txt
+
+### Ejecucion con redireccion a un archivo de salida
 python main.py < entrada.txt > salida.txt
 
-# En Windows (PowerShell)
-Get-Content entrada.txt | python main.py > salida.txt
-Ver y guardar al mismo tiempo:
+### Verificacion de resultados
+Si cuenta con un archivo de resultados esperados, puede compararlos usando:
+diff salida.txt salida_esperada.txt
 
-# Usa 'tee' para ver el resultado en pantalla y guardarlo a la vez
-python main.py < entrada.txt | tee salida.txt
-Ejemplo de entrada y salida
-Entrada (entrada.txt):
+## Ejemplo de entrada y salida
 
-
+**Entrada (entrada.txt):**
 1,2,3
 1.9,2.1,3.7
 1a2,3b,4
-Salida (salida.txt):
 
+**Salida (salida.txt):**
 6
 6
 19
-Autor
+
+## Autor
 Jose Roman Huitron Carranco
